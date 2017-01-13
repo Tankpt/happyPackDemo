@@ -1,0 +1,25 @@
+{
+  "name": "asda",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js --progress",
+    "happyPack": "webpack --config ./webpack.happypack.js --progress"
+  },
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.5.0",
+    "happypack": "^2.2.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "css-loader": "~0.23.1",
+    "style-loader": "~0.13.0",
+    "fast-sass-loader": "^1.0.7",
+    "node-sass": "3.10.0",
+    "sass-loader": "^4.1.1",
+    "webpack": "^1.9.11"
+  }
+}
